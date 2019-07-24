@@ -18,7 +18,7 @@ func main() {
 	}))
 
 	e.GET("/", func(c echo.Context) error {
-		return c.JSON(http.StatusCreated, "sinin")
+		return c.JSON(http.StatusCreated, "sini......1")
 	})
 
 	e.Logger.Fatal(e.Start(":8081"))
